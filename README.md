@@ -22,7 +22,7 @@ config = {
 }
 ```
 
-Another way to use it is to pass on the triggering to a cron task. For example, to display a catfact each hour, install the following task in your crontab:
+Another way to use it is to pass on the triggering to a cron task. For example, to display a Chuck Norris fact each hour, install the following task in your crontab:
 ```sh
-@hourly /usr/local/bin/cat-notify.sh
+@hourly /usr/local/bin/cnf.sh
 ```
